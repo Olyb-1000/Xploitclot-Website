@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+  height: 40vh;
+  width: 100%;
+  background-color: aliceblue;
+  background-position: center;
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo{
+  width: 200px;
+  cursor: pointer;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a{
+  color: rgb(13, 13, 70);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  transition: 0.1s;
+  color: #000;
+}
+
+.btn{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: rgb(109, 187, 144);
+  cursor: pointer;
+  font-weight: bold;
+  transition-duration: 0.1s;
+  border: 2px solid rgb(109, 187, 144);
+}
+
+
+.btn:hover{
+background-color: transparent;
+cursor: pointer;
+color:rgb(109, 187, 144);
+}
+
+/*Section 1*/
+.about{
+    width: 100%;
+    height: 60vh;
+    background-color: aliceblue;
+}
+
+.about-text img{
+    float: right;
+    padding-right: 20%;
+    height: 500px;
+
+}
+
+.about-text h1{
+    padding-top: 3%;
+    padding-left: 8%;
+    font-size: 50px;
+    color: rgb(13, 13, 70);
+}
+
+
+.about-text h5{
+    padding-top: 2%;
+    float: left;
+    padding-left: 8%;
+    font-size: 18px;
+    font-weight: normal;
+    color: #808080;
+    line-height: 28px;
+}
+
+
+/*Section 2*/
+.digit{
+    width: 100%;
+    height: 65vh;
+    background-color: #fff;
+    padding-top: 8%;
+}
+
+.digit-text img{
+    float: left;
+    height: 500px;
+    padding-left: 8%;
+
+}
+
+.digit-text h1{
+    padding-top: 3%;
+    float: right;
+    padding-right: 30%;
+    font-size: 50px;
+    color: rgb(13, 13, 70);
+}
+
+
+.digit-text h5{
+    padding-top: 2%;
+    float: right;
+    padding-right: 33%;
+    font-size: 18px;
+    font-weight: normal;
+    color: #808080;
+    line-height: 28px;
+}
+
+.bun{
+    color: navy;
+    background-color: transparent;
+    border: 2px solid navy;
+    padding-left:  60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    transition-duration: 0.1s;
+  }
+  .bun:hover{
+    background-color: navy;
+    cursor: pointer;
+    color: #fff;
+  }

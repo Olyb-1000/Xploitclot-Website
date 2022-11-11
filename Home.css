@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+  height: 40vh;
+  width: 100%;
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo{
+  width: 200px;
+  cursor: pointer;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a{
+  color: navy;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  transition: 0.1s;
+  color: blue;
+}
+
+.btn{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: rgb(109, 187, 144);
+  cursor: pointer;
+  font-weight: bold;
+  transition-duration: 0.1s;
+  border: 2px solid rgb(109, 187, 144);
+}
+
+
+.btn:hover{
+background-color: transparent;
+cursor: pointer;
+color:rgb(109, 187, 144);
+}
+
+
+/*NAV CONTENT */
+
+ .Content{
+  position: absolute;
+  background-color: aliceblue;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  max-width: 900px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+  
+
+ } 
+ .para{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding-left: 300px;
+    color: navy;
+    float: left;
+  }
+
+  .content p{
+    font-size: 25px;
+    font-weight:normal ;
+    color: grey;
+    line-height: 38px;
+  }
+  .pic{
+    float: right;
+    padding-right: 400px;
+  }
+
+  
+.bun{
+	color: #fff;
+	background-color:rgb(21, 96, 196);
+	border: 2px solid rgb(21, 96, 196);
+	padding: 15px 30px;
+  font-weight: bold;
+	transition-duration: 0.1s;
+}
+.bun:hover{
+	background-color: transparent;
+	cursor: pointer;
+	color:rgb(21, 96, 196);
+}
+
+
+/*SECTION 1*/
+.pec{
+    width: 100%;
+    height: 70vh;
+    padding-left: 300px;
+    background-color: #fff; 
+}
+
+.pec h3{
+    color: rgb(23, 127, 212);
+}
+.pec h2{
+    color: rgb(4, 4, 68);
+    font-size: 40px;
+}
+
+.main img{
+    float: right;
+    padding-right: 400px;
+    
+}
+
+.sub{
+    background-color: rgb(181, 223, 209);
+    height: 500px;
+    width: 900px;
+}
+.sub h4{
+    margin-top: 40px;
+    padding-top: 100px;
+    padding-left: 30px;
+    cursor: pointer;
+    color: rgba(223, 55, 55, 0.712);
+}
+
+
+.sub h2{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 35px;
+    color: rgb(4, 4, 68);
+}
+
+.sub h2:hover{
+    color: red;
+}
+.sub img{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.ma img{
+    float: right;
+    padding-right: 200px;
+    
+}
+
+
+.mai img{
+  float: left;
+  padding-left: 300px;
+  
+}
+
+
+.man img{
+  float: right;
+  padding-top: 40px;
+  padding-right: 200px;
+  
+}
+
+
+.mane img{
+float: left;
+padding-top: 40px;
+padding-left: 300px;
+}
+
+.enc{
+  color: navy;
+	background-color: transparent;
+	border: 2px solid navy;
+	padding-left:  60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+	transition-duration: 0.1s;
+}
+.enc:hover{
+  background-color: navy;
+	cursor: pointer;
+	color: #fff;
+}
+
+.test h3{
+    text-align: center;
+    font-size: 10px;
+    color: blueviolet;
+    font-weight: lighter;
+}
+
+.test h2{
+    color: navy;
+    font-size: 45px;
+    text-align: center;
+}
+
+.test p{
+  color: grey;
+  text-align: center;
+  padding-left: 20px;
+  font-size: 19px;
+  font-weight:normal ;
+  line-height: 38px;
+}
+
+.yinka{
+  float: right;
+  padding-right: 400px;
+  
+}
+.yinka h2{
+  color: navy;
+  font-size: 25px;
+}
+.yinka h3{
+  color: grey;
+  font-weight: normal;
+}
+
+.yinka p{
+  color: grey;
+  font-size: 20px;
+  line-height: 28px;
+
+}
+.yinka h4{
+  color: navy;
+}
+.yinka h4:hover {
+  color: red;
+}
+
+.john{
+  float: left;
+  padding-left: 350px;
+  
+}
+.john h2{
+  color: navy;
+  font-size: 25px;
+  }
+.john h3{
+  color: grey;
+  font-weight: normal;
+}
+
+.john p{
+  color: grey;
+  font-size: 20px;
+  line-height: 28px;
+}
+.john h4{
+  color: navy;
+}
+.john h4:hover{
+  color: red;
+}
+
+.toss img{
+  float: right;
+  padding-left: 400px;
+ 
+}
+
+.to img{
+  float: right;
+  padding-left: 400px;
+}
+
+.cli{
+  float: left;
+  padding-right: 100px;
+  padding-left: 400px;
+}
+.cli h3{
+  font-size: 10px;
+  color: rgba(255, 0, 0, 0.521);
+  font-weight: lighter;
+}
+
+.cli h2{
+  font-size: 40px;
+  width: 20%;
+  color: navy;
+}
+
+.cli p{
+  width: 20%;
+  color: grey;
+  font-size: 20px;
+}
+
+.top h3{
+  color: rgb(11, 197, 221);
+  padding-right: 100px;
+}
+
+.top h1{
+  font-size: 40px;
+  color: navy;
+  padding-right: 100px;
+}
+
+.bus{
+  float: right;
+ }
+
+.bus h3{
+  color: #fff;
+  width: 70px;
+  font-size: 10px;
+}
+
+.bus h2{
+  color: navy;
+  padding-right: 400px;
+}
+
+.bus p{
+  padding-right: 400px;
+  color: grey;
+}
+.mark{
+  float: left;
+}
+
+.mark h3{
+  color: #000;
+  width: 70px;
+  font-size: 10px;
+  padding-left: 400px;
+ 
+}
+.mark h2{
+  color: navy;
+  padding-left: 400px;
+}
+
+.mark p{
+  padding-left: 400px;
+  color: grey;
+}
+.sec{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: auto;
+  background-color: navy;
+  padding: 60px 10%;
+  
+}
+.input-group{
+  flex-basis: 45%;
+}
+ul{
+  list-style: none;
+}
+
+.sec-col button{
+  color: navy;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding-left:  30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+	transition-duration: 0.1s;
+}
+.sec-col{
+  width: 25%;
+}
+.sec-col h4{
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.sec-col h2{
+  font-size: 60px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+  padding-right: 100px;
+  
+}
+.sec-col P{
+  color: #fff;
+}
+
+ul li:not(:last-child){
+  margin-bottom: 8px;
+
+}
+ul li a{
+  display: block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.4s;
+}
+ul li a:hover{
+  color:#fff;
+  padding-left: 2px;
+}
+.links a{
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  color: white;
+  background-color: #000;
+  margin: 0 8px 8px 0;
+  text-align: center;
+  transition: 0.4s;
+}
+.linksa:hover{
+  color: #fff;
+  background-color: white;
+}
+
